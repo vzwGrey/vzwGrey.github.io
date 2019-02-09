@@ -1,27 +1,29 @@
 body {
 	background: #eee;
 	height: 100%;
-	margin: 0;
 	width: 100%;
+	margin: 0;
 }
 
 .container {
+	font-family: "Open Sans", sans-serif;
 	background: #fff;
 	box-shadow: 7px 7px 46px -10px rgba(0,0,0,0.43);
-	height: 18rem;
+	width: 640px;
+	height: 290px;
 	left: 50%;
-	padding: 0;
-	position: absolute;
 	top: 50%;
 	transform: translate(-50%, -50%);
-	width: 40rem;
+	padding: 0;
+	position: absolute;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 h1 {
-	font-family: "Open Sans", sans-serif;
 	font-size: 2rem;
-	line-height: 18rem;
 	margin: 0;
 	padding: 0;
-	text-align: center;
 }
